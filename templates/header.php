@@ -46,8 +46,8 @@ session_start();
         </a>
         <a href="index.php" class="btn text-white my-2 <?php if ($activo == "tienda") echo 'active' ?>"><strong>Tienda</strong></a>
 
-        <a href="login.php" class="btn text-white my-2 <?php if ($activo == "login") echo 'active' ?>"><strong>Login</strong></a>
-        <a href="registro.php" class="btn text-white my-2 <?php if ($activo == "registro") echo 'active' ?>"><strong>Registro</strong></a>
+        <a href="usuario/login.php" class="btn text-white my-2 <?php if ($activo == "login") echo 'active' ?>"><strong>Login</strong></a>
+        <a href="usuario/registrar.php" class="btn text-white my-2 <?php if ($activo == "registro") echo 'active' ?>"><strong>Registro</strong></a>
         <a href="carrito.php" class="btn text-white my-2 <?php if ($activo == "carrito") echo 'active' ?>">
           <strong><i class="bi bi-cart"></i></strong>
           <?php
